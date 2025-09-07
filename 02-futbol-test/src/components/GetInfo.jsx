@@ -82,6 +82,7 @@ const GetInfo = () => {
         fontSize: "16px"
   }}
       />
+      <div className="container">
       <div className={`div-main ${isSelected ? 'blurred' : ''}`}>
           {pokemones
           .filter((p) => p.name.includes(search))
@@ -126,6 +127,7 @@ const GetInfo = () => {
     No se encontraron Pokemones.
   </p>
 )}
+      </div>
       </div>
       {isSelected && (
         <PokeModal 

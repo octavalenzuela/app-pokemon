@@ -69,6 +69,7 @@ const styles = {
         color: "white",
         borderRadius: '50px',
         cursor: 'pointer',
+        padding: '7px'
     }
 }
 export default PokeModal
