@@ -3,6 +3,10 @@
 🟢 Una aplicación web interactiva que te permite explorar información de Pokémon usando la **PokéAPI**.  
 Construida con **React** y **Vite**, diseñada para ser rápida, responsiva y fácil de navegar.
 
+<img width="945" height="600" alt="image" src="https://github.com/user-attachments/assets/42216b0b-2cb6-475b-ba7a-0da3fb25ec43" />
+
+🟢 Link a la App! 
+https://octavalenzuela.github.io/app-pokemon/
 ---
 
 ## 🧰 Funcionalidades principales
