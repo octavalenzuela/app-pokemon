@@ -1,3 +1,7 @@
+body {
+  background: #f7e8d0;
+}
+
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
                'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -18,7 +22,7 @@ p {
   gap: 20px;
   margin: 20px;
 
-  justify-content: center;  /* 🔥 mantiene centradas las columnas */
+  justify-content: center;  
 }
 
 .li-main {
@@ -26,7 +30,7 @@ p {
   padding: 20px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0px 6px 15px rgba(0,0,0,0.2);  /* ✅ sombra solo en la card */
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.2); 
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   color: #fff;
   font-family: 'Arial', sans-serif;
@@ -39,13 +43,13 @@ p {
 
 .blurred {
   filter: blur(5px);
-  pointer-events: none; /* evita que se clickeen las cards cuando el modal está abierto */
+  pointer-events: none; 
 }
 
 .li-main img {
   display: block;
   margin: 0 auto 15px auto;
-  width: 96px; /* tamaño fijo para que todas se vean iguales */
+  width: 96px; 
 }
 
 .pokemon-name {
@@ -62,3 +66,45 @@ p {
   margin: 8px 0;
 }
 
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Contenedor del modal */
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.4);
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Botón para cerrar */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
