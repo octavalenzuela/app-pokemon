@@ -1,12 +1,41 @@
-# React + Vite
+# 📊 Pokedex Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🟢 Una aplicación web interactiva que te permite explorar información de Pokémon usando la **PokéAPI**.  
+Construida con **React** y **Vite**, diseñada para ser rápida, responsiva y fácil de navegar.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧰 Funcionalidades principales
 
-## Expanding the ESLint configuration
+- ✅ Listado interactivo de Pokémon con imágenes, tipos y número  
+- ✅ Búsqueda en tiempo real por nombre o ID del Pokémon  
+- ✅ Visualización de detalles: estadísticas, habilidades y sprites  
+- ✅ Diseño responsivo para desktop y dispositivos móviles  
+- ✅ Datos en tiempo real obtenidos de la **[PokéAPI](https://pokeapi.co/)**  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tecnologías usadas
+
+- **Frontend:** React + Vite  
+- **Estilos:** CSS modular, diseño responsivo  
+- **API:** [PokéAPI](https://pokeapi.co/)  
+- **Control de versiones:** Git & GitHub  
+
+---
+
+## ⚡ Instalación y ejecución
+
+bash
+# Clonar el repositorio
+git clone https://github.com/octavalenzuela/app-pokemon.git
+
+# Entrar al proyecto
+cd app-pokemon
+
+# Instalar dependencias
+npm install
+
+# Ejecutar la aplicación
+npm run dev
+Abrí tu navegador en http://localhost:5173 para explorar la Pokedex.
